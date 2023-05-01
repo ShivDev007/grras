@@ -1,0 +1,53 @@
+/* CSS for the navbar */
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #024c92; /* change the color here */
+	overflow: hidden;
+	z-index: 1;
+}
+
+/* Style the links inside the navbar */
+.navbar a {
+	float: left;
+	color: #e5ff00;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: background-color 0.3s ease;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+/* Page content */
+.content {
+	padding-top: 60px;
+	margin: 50px;
+	text-align: center;
+	animation: slide-in 0.5s ease;
+}
+
+/* Animation */
+@keyframes slide-in {
+	from {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
