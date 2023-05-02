@@ -26,7 +26,10 @@
   }
   
   .navbar a:hover {
-	background-color: #a5359c6e;
+	background-color: #d30465b2;
+	transition: 0.2s;
+	border: #000000;
+	border-radius: 30px;
   }
   
   .navbar a.active {
