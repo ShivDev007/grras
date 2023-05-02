@@ -1,7 +1,7 @@
 /* CSS for the navbar shivam's new cssss */
 /* Navbar */
 .navbar {
-	position:static;
+	position:sticky;
 	height: 6vh;
 	top: 0;
 	left: 0;
