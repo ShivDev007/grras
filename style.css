@@ -19,14 +19,14 @@
   
   .navbar a {
 	font-size: 1.2rem;
-	color: #333;
+	color: #000000;
 	text-decoration: none;
 	padding: 1rem;
 	transition: all 0.3s ease;
   }
   
   .navbar a:hover {
-	background-color: #eee;
+	background-color: #a5359c6e;
   }
   
   .navbar a.active {
