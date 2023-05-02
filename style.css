@@ -20,11 +20,32 @@
 	text-decoration: none;
 	font-size: 17px;
 	transition: color 0.3s ease-in-out; /* Add a transition effect */
+	position: relative; /* Add position:relative for pseudo-element */
+  }
+  
+  /* Add pseudo-element for reflection effect */
+  .navbar a::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out;
+	z-index: -1;
   }
   
   /* Hover effect on links */
   .navbar a:hover {
 	color: #00ff95; /* Change the color here */
+  }
+  
+  /* Add hover effect on pseudo-element */
+  .navbar a:hover::before {
+	transform: translateX(-50%) translateY(-150%);
   }
   
   /* Active/current link */
