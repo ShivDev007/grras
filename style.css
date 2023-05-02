@@ -60,11 +60,11 @@
 .container {
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 	flex-direction: row;
 	scroll-behavior: auto;
   }
 .card {
-	/* position:absolute; */
 	width: 300px;
 	height: 400px;
 	margin: 20px;
@@ -97,7 +97,7 @@
   }
   
   .card-content {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	width: 100%;
