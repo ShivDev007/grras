@@ -32,7 +32,7 @@
 	transform: translateX(-50%);
 	width: 50%;
 	height: 50%;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(1, 153, 145, 0.322);
 	border-radius: 50%;
 	transition: transform 0.3s ease-in-out;
 	z-index: -1;
@@ -40,7 +40,9 @@
   
   /* Hover effect on links */
   .navbar a:hover {
-	color: #00ff95; /* Change the color here */
+	color: #fbff00; /* Change the color here */
+	font-size: 20px;
+	transition: 0.5s;
   }
   
   /* Add hover effect on pseudo-element */
@@ -50,7 +52,7 @@
   
   /* Active/current link */
   .navbar a.active {
-	background-color: #4CAF50;
+	background-color: #56009c54;
 	color: #fff; /* Change the color here */
   }
   
