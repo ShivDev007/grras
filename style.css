@@ -41,7 +41,7 @@
   /* Hover effect on links */
   .navbar a:hover {
 	color: #fbff00; /* Change the color here */
-	font-size: 20px;
+	/* font-size: 20px; */
 	transition: 0.5s;
   }
   
