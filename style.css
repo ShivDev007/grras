@@ -1,4 +1,4 @@
-/* CSS for the navbar shivam's page to edit css of the page*/
+/* CSS for the navbar shivam's new cssss */
 .navbar {
 	position: fixed;
 	top: 0;
@@ -52,14 +52,24 @@
 	}
 }
 
+/* Main container */
+
+
+#main-container{
+	display: flexbox;
+	flex-direction: column;
+	height: 100%;
+	width: auto;
+}
 /* cards cssss  */
 .container {
 	display:flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	scroll-behavior: auto;
   }
 .card {
-	position:absolute;
+	/* position:absolute; */
 	width: 300px;
 	height: 400px;
 	margin: 20px;
@@ -67,7 +77,7 @@
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 	overflow: hidden;
 	transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	float: left;
+	/* float: left; */
   }
   
   .card:hover {
