@@ -20,7 +20,7 @@
 	transition: background-color 0.3s ease;
 }
 
-/* Change the color of links on hover */
+/* Change the color of links on hover effects*/
 .navbar a:hover {
 	background-color: #ddd;
 	color: black;
@@ -55,12 +55,7 @@
 /* Main container */
 
 
-#main-container{
-	display: flexbox;
-	flex-direction: column;
-	height: 100%;
-	width: auto;
-}
+
 /* cards cssss  */
 .container {
 	display:flex;
