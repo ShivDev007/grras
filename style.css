@@ -54,10 +54,9 @@
 
 /* cards cssss  */
 .container {
-	display:grid;
+	display:flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	scroll-behavior: auto;
   }
 .card {
 	position:absolute;
